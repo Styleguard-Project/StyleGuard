@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "target_per_class": 2500,
+  "test_size": 0.2,
+  "feature_columns": [
+    "avg_sentence_length",
+    "sentence_length_variance",
+    "type_token_ratio",
+    "punctuation_ratio",
+    "stopword_ratio",
+    "avg_word_length",
+    "paragraph_length_variance",
+    "discourse_ratio"
+  ],
+  "split_strategy": "GroupShuffleSplit by source_human_id",
+  "models": {
+    "Logistic Regression": {
+      "max_iter": 2000,
+      "class_weight": "balanced"
+    },
+    "Linear SVM": {
+      "class_weight": "balanced"
+    },
+    "Random Forest": {
+      "n_estimators": 300,
+      "class_weight": "balanced"
+    },
+    "Length-only (word_count)": {
+      "base_model": "LogisticRegression"
+    },
+    "Random Forest (top-3 features)": {
+      "features": [
+        "avg_word_length",
+        "stopword_ratio",
+        "type_token_ratio"
+      ]
+    }
+  },
+  "best_model": "Random Forest"
+}

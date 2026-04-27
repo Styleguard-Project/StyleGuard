@@ -1,0 +1,9 @@
+feature,importance
+paragraph_length_variance,0.0
+discourse_ratio,0.01658626537643798
+punctuation_ratio,0.03662422203889651
+sentence_length_variance,0.0558885930935326
+avg_sentence_length,0.060303625806650614
+type_token_ratio,0.14873844459308416
+stopword_ratio,0.26659157759832935
+avg_word_length,0.41526727149306897

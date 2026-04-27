@@ -1,0 +1,9 @@
+label,category,samples,avg_word_count
+ai,cs.AI,680,151.2
+ai,cs.CL,560,149.4
+ai,physics.optics,511,149.4
+ai,q-bio.GN,748,151.2
+human,cs.AI,680,150.0
+human,cs.CL,560,130.5
+human,physics.optics,511,125.3
+human,q-bio.GN,748,174.3
