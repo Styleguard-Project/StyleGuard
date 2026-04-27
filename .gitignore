@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.log
+
+data/raw/
+data/batch/
+data/processed/
+
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin

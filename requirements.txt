@@ -1,0 +1,10 @@
+arxiv
+pandas
+numpy
+scikit-learn
+matplotlib
+nltk
+langdetect
+tqdm
+requests
+python-dotenv
