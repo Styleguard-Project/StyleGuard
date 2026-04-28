@@ -1,0 +1,8 @@
+{
+  "model": "RoBERTa (fine-tuned)",
+  "accuracy": 0.956,
+  "precision": 0.975,
+  "recall": 0.936,
+  "f1": 0.9551,
+  "fpr": 0.024
+}
