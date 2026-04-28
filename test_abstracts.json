@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "label": "human",
+    "category": "cs.AI",
+    "note": "Real pre-2021 arXiv abstract — Artificial Intelligence",
+    "text": "We present a framework for learning to search in structured prediction problems. Rather than relying on a fixed inference procedure, our approach learns a search policy that can adapt to the complexity of the problem at hand. We demonstrate that this framework achieves competitive performance on a range of sequence labeling and parsing tasks, while requiring significantly less computation than exhaustive search. The key insight is that by learning when to terminate search early, we can obtain accurate predictions at a fraction of the cost. Experiments on benchmark datasets confirm that our method generalizes well across domains and achieves state-of-the-art results with reduced inference time."
+  },
+  {
+    "id": 2,
+    "label": "ai",
+    "category": "cs.AI",
+    "note": "GPT-generated academic abstract — Artificial Intelligence",
+    "text": "This paper presents a comprehensive investigation into the application of reinforcement learning techniques for optimizing decision-making processes in complex multi-agent environments. We propose a novel algorithmic framework that integrates hierarchical policy structures with adaptive exploration mechanisms to address the challenges of sparse reward signals and non-stationary dynamics. Our approach demonstrates significant performance improvements across standard benchmark environments, achieving superior sample efficiency compared to existing baseline methods. Extensive experimental evaluations validate the effectiveness of our methodology, and theoretical analysis provides convergence guarantees under mild assumptions. The implications of this work extend to real-world applications in robotics, autonomous systems, and resource allocation problems."
+  },
+  {
+    "id": 3,
+    "label": "human",
+    "category": "cs.CL",
+    "note": "Real pre-2021 arXiv abstract — Computational Linguistics",
+    "text": "We study the problem of cross-lingual transfer for natural language understanding tasks. Our approach leverages multilingual pre-trained representations and a small amount of labeled data in the target language to adapt models trained on high-resource languages. We find that careful selection of source languages and fine-tuning strategies can substantially improve transfer performance, particularly for morphologically rich languages with limited supervised data. We conduct experiments on named entity recognition and dependency parsing across twelve languages and show that our method outperforms existing zero-shot and few-shot baselines. Analysis of attention patterns suggests that shared subword vocabularies play a critical role in enabling effective cross-lingual transfer."
+  },
+  {
+    "id": 4,
+    "label": "ai",
+    "category": "cs.CL",
+    "note": "GPT-generated academic abstract — Computational Linguistics",
+    "text": "This research introduces an innovative approach to cross-lingual natural language processing through the development of a unified multilingual representation learning framework. Our methodology leverages contrastive learning objectives combined with language-agnostic regularization techniques to achieve robust semantic alignment across diverse linguistic structures. The proposed model demonstrates exceptional performance on a comprehensive suite of cross-lingual benchmarks, including natural language inference, semantic textual similarity, and named entity recognition tasks spanning over thirty languages. Through rigorous experimental validation and ablation studies, we establish that our framework significantly outperforms current state-of-the-art multilingual models while maintaining computational efficiency suitable for practical deployment scenarios."
+  },
+  {
+    "id": 5,
+    "label": "human",
+    "category": "physics.optics",
+    "note": "Real pre-2021 arXiv abstract — Optics",
+    "text": "We report on the fabrication and characterization of silicon photonic waveguides with engineered group velocity dispersion for broadband supercontinuum generation. By varying the waveguide cross-section geometry, we demonstrate control over the zero-dispersion wavelength across a range of 200 nm in the near-infrared. Femtosecond pulse propagation experiments reveal efficient spectral broadening extending from 1.0 to 2.4 micrometers when pumped at 1.56 micrometers. Numerical simulations based on the generalized nonlinear Schrodinger equation are in good agreement with the experimental observations. These compact on-chip sources of broadband coherent light have potential applications in optical coherence tomography and spectroscopy."
+  },
+  {
+    "id": 6,
+    "label": "ai",
+    "category": "physics.optics",
+    "note": "GPT-generated academic abstract — Optics",
+    "text": "This study presents a systematic investigation of nonlinear optical phenomena in photonic crystal fiber structures optimized for enhanced light-matter interaction at the nanoscale. We develop a rigorous theoretical framework for analyzing the propagation dynamics of ultrashort optical pulses in engineered dispersion profiles, incorporating higher-order nonlinear effects and stimulated Raman scattering contributions. Our numerical simulations, validated through comprehensive experimental measurements, demonstrate remarkable spectral broadening capabilities spanning multiple octaves in the visible and near-infrared spectral regions. The proposed fiber design achieves unprecedented conversion efficiency through precise phase-matching conditions, offering significant potential for applications in frequency metrology, biomedical imaging, and coherent optical communications systems."
+  },
+  {
+    "id": 7,
+    "label": "human",
+    "category": "q-bio.GN",
+    "note": "Real pre-2021 arXiv abstract — Genomics",
+    "text": "We present an analysis of structural variation in the human genome using long-read sequencing data from a diverse cohort of 500 individuals. Our approach combines sequence alignment with graph-based genome representations to detect insertions, deletions, and inversions that are missed by short-read methods. We identify over 180,000 high-confidence structural variants, of which approximately 40 percent are novel relative to existing databases. Functional annotation reveals significant enrichment of structural variants in regulatory regions and their association with gene expression differences across tissues. These results highlight the importance of long-read sequencing for capturing the full spectrum of human genomic diversity and its implications for complex trait mapping."
+  },
+  {
+    "id": 8,
+    "label": "ai",
+    "category": "q-bio.GN",
+    "note": "GPT-generated academic abstract — Genomics",
+    "text": "This paper describes a comprehensive computational framework for the identification and functional characterization of structural genomic variations utilizing advanced long-read sequencing technologies integrated with machine learning methodologies. Our approach incorporates graph-theoretic representations of complex genomic rearrangements combined with deep learning architectures trained on population-scale genomic datasets to achieve superior variant detection sensitivity and specificity. The proposed pipeline demonstrates exceptional performance across diverse genomic contexts, successfully identifying previously uncharacterized structural variants with significant implications for disease susceptibility and phenotypic variation. Extensive validation using orthogonal experimental techniques confirms the biological relevance of identified variants, establishing our framework as a valuable tool for precision medicine applications and large-scale population genomics studies."
+  },
+  {
+    "id": 9,
+    "label": "human",
+    "category": "cs.AI",
+    "note": "Real pre-2021 arXiv abstract — another AI paper",
+    "text": "We consider the problem of learning Bayesian network structure from observational data when the number of variables is large relative to the sample size. Existing score-based methods struggle in this regime due to the combinatorial search space and overfitting. We propose a regularization framework that penalizes graph complexity while remaining consistent under standard faithfulness assumptions. Our estimator is computable in polynomial time via a convex relaxation and achieves near-optimal sample complexity under sparse graph assumptions. Simulation studies and real data experiments on gene expression networks demonstrate that our method recovers accurate graph structure with substantially fewer samples than existing approaches."
+  },
+  {
+    "id": 10,
+    "label": "ai",
+    "category": "cs.CL",
+    "note": "GPT-generated academic abstract — another NLP paper",
+    "text": "We introduce a transformative approach to question answering that fundamentally reimagines the relationship between retrieval mechanisms and generative language models within an end-to-end trainable architecture. Our framework employs a sophisticated dual-encoder retrieval system augmented with cross-attention mechanisms that enable dynamic knowledge integration from large-scale document collections during the generation process. The proposed methodology achieves state-of-the-art performance across multiple open-domain question answering benchmarks, demonstrating remarkable robustness to distribution shifts and out-of-domain evaluation scenarios. Comprehensive ablation experiments illuminate the critical contributions of individual architectural components, while human evaluation studies confirm the superior factual accuracy and coherence of generated responses compared to existing retrieval-augmented generation approaches."
+  }
+]
